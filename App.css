@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-color: #2062e6;
+  height: 100vh;
+  padding: 20px;
+}
+
+#drum-machine {
+  width: 80%;
+  height: 80%;
+  background: red;
+  margin: 50px auto;
+  border: 4px solid yellow;
+  border-radius: 2px;
+}
+
+.drum-pad {
+  width: 65%;
+  height: 100%;
+  background: green;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.drum-pad button {
+  background: lime;
+}
+
+#render-sound-name{
+  position: relative;
+  width: 150px;
+  height: 60px;
+  background: yellow;
+  top: -320px;
+  left: 750px;
+}
